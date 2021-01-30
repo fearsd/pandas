@@ -716,7 +716,7 @@ def setup_package():
         "install_requires": [
             "python-dateutil >= 2.7.3",
             "pytz >= 2017.3",
-            f"numpy >= {min_numpy_ver}",
+            # f"numpy >= {min_numpy_ver}",
         ],
         # "setup_requires": [f"numpy >= {min_numpy_ver}"],
         "zip_safe": False,
