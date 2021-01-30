@@ -718,7 +718,7 @@ def setup_package():
             "pytz >= 2017.3",
             f"numpy >= {min_numpy_ver}",
         ],
-        "setup_requires": [f"numpy >= {min_numpy_ver}"],
+        # "setup_requires": [f"numpy >= {min_numpy_ver}"],
         "zip_safe": False,
     }
 
