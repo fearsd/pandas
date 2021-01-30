@@ -17,7 +17,7 @@ import platform
 import shutil
 import sys
 
-import numpy
+#import numpy
 from setuptools import Command, Extension, find_packages, setup
 from setuptools.command.build_ext import build_ext as _build_ext
 
