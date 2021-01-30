@@ -649,7 +649,7 @@ for name, data in ext_data.items():
     sources.extend(data.get("sources", []))
 
     include = data.get("include", [])
-    include.append(numpy.get_include())
+    # include.append(numpy.get_include())
 
     obj = Extension(
         f"pandas.{name}",
